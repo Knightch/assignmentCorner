@@ -55,3 +55,6 @@
   .contact-form button:focus {
     box-shadow: none;
   }
+.col-sm-10 {
+  margin-bottom:5%;
+}

@@ -5,29 +5,12 @@ figure {
   max-width: 100%;
 }
 
-html,
-body {
-  overflow-x: hidden;
-  color: #000;
-  -ms-overflow-style: scrollbar;
-  -webkit-font-smoothing: antialiased;
-}
 
-a,
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-  color: inherit;
-}
 
-a {
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
-}
+
 
 .ct-u-paddingTop10 {
-  padding-top: 10px !important;
+  padding-top: 10px ;
 }
 
 .ct-footer {
@@ -72,7 +55,7 @@ a {
       height: 50px;
       padding: 0 30px;
       margin: 0 5px;
-      border-radius: 0 !important;
+      border-radius: 0;
     }
 
     .ct-footer-pre .form-group button {
@@ -162,10 +145,7 @@ address {
   display: inline-block;
 }
 
-  address span {
-    font-weight: 590;
-  }
-
+  
   address a {
     color: #fff;
   }
@@ -246,9 +226,7 @@ address {
     transition: all .25s ease;
   }
 
-    .btn.btn-white:hover {
-      background-color: #d9d9d9;
-    }
+   
 
       .btn.btn-white:hover:active {
         background-color: #c9c9c9

@@ -2,56 +2,38 @@
 
   <br />
   <div class="row">
-    <div class="col-sm-6 animated fadeInLeft show-on-scroll" id="bkimg1" style="background-color:white;
-       height:450px;
-       width:50%">
+    <div class="col-sm-6" id="bkimg1">
     </div>
-    <div class="col-sm-6 animated fadeInRight" style="background-color:white;">
-      <h2 style="font:40px poppins,sans-serif;
-                 margin:0px 0px 19.2px;
-                 color:#2B2B2B">
+    <div class="col-sm-6" >
+      <h2>
         What is an Assignment Help?
       </h2>
-      <p style="font:15px Roboto,sans-serif;
-                 margin:0px 0px 16px;
-                color:#6D6D6D">A good research paper is a disciplined approach towards the culmination of finely articulated thoughts, which means more references to read and longer hours at the library.  Now understanding that a little help along the way would add more brightness to your days. We provide online assistance in providing reference papers to your unique needs which cut down your hours at work and improve your grades with greater passion.</p>
+      <p>A good research paper is a disciplined approach towards the culmination of finely articulated thoughts, which means more references to read and longer hours at the library.  Now understanding that a little help along the way would add more brightness to your days. We provide online assistance in providing reference papers to your unique needs which cut down your hours at work and improve your grades with greater passion.</p>
       <br />
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-6 animated fadeInLeft show-on-scroll" style="background-color:white;">
-      <h2 style="font:40px poppins,sans-serif;
-                 margin:0px 0px 19.2px;
-                 color:#2B2B2B">
+    <div class="col-sm-6">
+      <h2>
         Why Help With Assignments?
       </h2>
-      <p style="font:15px Roboto,sans-serif;
-                 margin:0px 0px 16px;
-                color:#6D6D6D">
+      <p>
         All too often, a student’s life at university revolves juggling between reading, researching, learning, having essays to write and deadlines to meet.
 
         Well just watching them all makes you exhausted,  stressed, anxious and really hard to see all the good. Hiring a professional academic writing service comes to ease the situation. It does not matter where you’re located. We at assignment corner help you smoothly ace at your academics. Order your papers right away to find progress in writing.
       </p>
     </div>
-    <div class="col-sm-6 animated fadeInLeft show-on-scroll" id="bkimg1" style="background-color:white;
-       height:450px;
-       width:50%">
+    <div class="col-sm-6" id="bkimg1">
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-6 animated fadeInLeft show-on-scroll" id="bkimg1" style="background-color:white;
-       height:450px;
-       width:50%">
+    <div class="col-sm-6" id="bkimg1">
     </div>
-    <div class="col-sm-6 animated fadeInRight" style="background-color:white;">
-      <h2 style="font:40px poppins,sans-serif;
-                 margin:0px 0px 19.2px;
-                 color:#2B2B2B">
+    <div class="col-sm-6">
+      <h2>
         Why is this treated as cheating?
       </h2>
-      <p style="font:15px Roboto,sans-serif;
-                 margin:0px 0px 16px;
-                color:#6D6D6D">
+      <p>
         To answer this question we must first understand, what makes it questionable? Is It the purpose the essay is provided for or the intent
 
         It's received with?
@@ -63,7 +45,7 @@
   </div>
   <section>
 
-    <div class="row" style="margin-left:5%">
+    <div class="row" id="symbol">
 
       <div class="col-sm-2 animated fadeInUp" >
         <img id="first1" src="https://image.flaticon.com/icons/svg/1644/1644130.svg" />
@@ -77,84 +59,18 @@
 
       <div class="col-sm-9 animated fadeInUp">
         <br />
-        <p style="font:18px roboto,sans-serif">Write your requirements by filling the project submission form with no payment</p>
+        <p >Write your requirements by filling the project submission form with no payment</p>
         <br />
-        <p style="font:18px roboto,sans-serif">Our writer will evaluate requirements and get in touch with you  </p>
+        <p >Our writer will evaluate requirements and get in touch with you  </p>
         <br />
-        <p style="font:18px roboto,sans-serif">Place your order by submitting your deposit and our writer will begin immediately </p>
+        <p >Place your order by submitting your deposit and our writer will begin immediately </p>
         <br />
-        <p style="font:18px roboto,sans-serif">Receive your paper within your deadlines and make payment</p>
+        <p>Receive your paper within your deadlines and make payment</p>
       </div>
 
     </div>
 
-    <script>
-      var scroll = window.requestAnimationFrame ||
-        // IE Fallback
-        function (callback) { window.setTimeout(callback, 1000 / 60) };
-      var elementsToShow = document.querySelectorAll('.show-on-scroll');
-
-      function loop() {
-
-        Array.prototype.forEach.call(elementsToShow, function (element) {
-          if (isElementInViewport(element)) {
-            element.classList.add('is-visible');
-          } else {
-            element.classList.remove('is-visible');
-          }
-        });
-
-        scroll(loop);
-      }
-
-      // Call the loop for the first time
-      loop();
-
-      // Helper function from: http://stackoverflow.com/a/7557433/274826
-      function isElementInViewport(el) {
-        // special bonus for those using jQuery
-        if (typeof jQuery === "function" && el instanceof jQuery) {
-          el = el[0];
-        }
-        var rect = el.getBoundingClientRect();
-        return (
-          (rect.top <= 0
-            && rect.bottom >= 0)
-          ||
-          (rect.bottom >= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.top <= (window.innerHeight || document.documentElement.clientHeight))
-          ||
-          (rect.top >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
-        );
-      };
-
-      // Wrap every letter in a span
-      $('.ml7 .letters').each(function () {
-        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-      });
-
-      anime.timeline({ loop: true })
-        .add({
-          targets: '.ml7 .letter',
-          translateY: ["1.1em", 0],
-          translateX: ["0.55em", 0],
-          translateZ: 0,
-          rotateZ: [180, 0],
-          duration: 750,
-          easing: "easeOutExpo",
-          delay: function (el, i) {
-            return 50 * i;
-          }
-        }).add({
-          targets: '.ml7',
-          opacity: 0,
-          duration: 1000,
-          easing: "easeOutExpo",
-          delay: 1000
-        });
-    </script>
+   
 
   </section>
-
 </section>

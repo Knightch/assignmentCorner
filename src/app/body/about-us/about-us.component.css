@@ -28,9 +28,16 @@
   #second {
     padding: 70px 12px 50px 20px;
     font: 15px roboto,sans-serif;
-    color: #6D6D6D;
+    background-color: #6D6D6D;
+    margin-left: 5%;
+    color: black;
+    font-style: italic
   }
 
+}
+h1 {
+  font: 50px poppins,sans-serif;
+  color: #2B2B2B;
 }
 
 
@@ -181,4 +188,35 @@
 mark {
   background: yellow;
   color: black;
+}
+p {
+  font: 15px roboto,sans-serif;
+  color: black;
+}
+h4 {
+  font: 20px poppins,sans-serif;
+  color: black;
+  margin: 0px 0px 24px;
+}
+#stywrd {
+  font: 40px roboto,sans-serif;
+  padding: 40px 0px;
+  background: linear-gradient(to left, #000099 0%, #6600ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold
+}
+h6 {
+  font: 25px poppins,sans-serif;
+  font-weight: bold;
+  color: #00BCD4;
+}
+#au1 {
+  margin-left:2%;
+}
+#au2 {
+  margin-top:5%;
+}
+#au3 {
+  margin-left:60%;
 }
