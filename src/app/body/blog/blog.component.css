@@ -103,6 +103,27 @@ h2 {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
+@media screen and (max-width:678px){
+  .Heading {
+    margin-left: 15%;
+    background: linear-gradient(to right, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  #first1, #first2, #first3, #first4 {
+    margin-left: 30%;
+    width: 40%;
+  }
+  #bkimg1 {
+    width: 100%;
+  }
+  h2 {
+    font: 20px;
+    margin-left: 5%;
+  }
+
+}
 
 
 

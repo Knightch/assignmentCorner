@@ -172,7 +172,7 @@ h3 {
 .container {
   width:50%;
   background: #fff;
-  margin-left: 5%;
+  margin-left: 10%;
   border-radius: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -293,6 +293,33 @@ li{
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
+@media screen and (max-width:678px) {
+  input, select {
+    padding: 5px 0;
+    margin-bottom: 2%;
+    font-size: 8px;
+  }
+  .agree {
+    font-size: 8px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: #000000;
+  }
+  .box {
+    width: 60vh;
+    height: 75vh;
+    font-weight: 400;
+    margin-right: 2%;
+    border: solid;
+    border-color: blue;
+    margin-top: 10%;
+    margin-left:6%;
+  }
+  #home {
+    margin-top: 6%
+  }
+}
+
 
 
    

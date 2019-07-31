@@ -52,5 +52,13 @@
 h3 {
   color: #00bff3;
 }
-
+.reserve{
+  margin-left:30%;
+}
+@media screen and (max-width:678px){
+  .reserve {
+    margin-left: 10%;
+    font-size:10px;
+  }
+}
 

@@ -2,3 +2,6 @@
 * {
   font-family: 'Raleway';
 }
+*{
+  overflow:hidden;
+}
