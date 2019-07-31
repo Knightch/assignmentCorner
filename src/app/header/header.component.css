@@ -1,186 +1,80 @@
-#logo {
-  margin-right: 5%;
-}
 
-#content {
-  margin-left: 5%;
-}
-
-
-#logo {
-  animation: shake 10s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(2px, 2px) rotate(0deg);
-  }
-
-  10% {
-    transform: translate(-2px, -3px) rotate(-1deg);
-  }
-
-  20% {
-    transform: translate(-4px, 1px) rotate(1deg);
-  }
-
-  30% {
-    transform: translate(4px, 3px) rotate(0deg);
-  }
-
-  40% {
-    transform: translate(2px, -2px) rotate(1deg);
-  }
-
-  50% {
-    transform: translate(-2px, 3px) rotate(-1deg);
-  }
-
-  60% {
-    transform: translate(-4px, 2px) rotate(1deg);
-  }
-
-  70% {
-    transform: translate(4px, 2px) rotate(-1deg);
-  }
-
-  80% {
-    transform: translate(-2px, -2px) rotate(1deg);
-  }
-
-  90% {
-    transform: translate(2px, 3px) rotate(0deg);
-  }
-
-  100% {
-    transform: translate(2px, -3px) rotate(-1deg);
-  }
-}
-
-@keyframes FadeIn {
-  0% {
-    opacity: 0;
-    -webkit-transition-duration: 0.8s;
-    -webkit-transform: translateY(-10px);
-  }
-
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    pointer-events: auto;
-    transition: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-
-
-/* Animation */
-
-
-section {
-  background-attachment: fixed;
-  background-image: url("/assets/images/office.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-p {
-  font: Didact Gothic;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-}
-div.container {
-  font-family: Raleway;
-  margin: 0 auto;
-  padding: 0.6em 2em;
-  text-align: center;
-}
-
-.container a {
-  color: black;
-  font: 20px Raleway;
-  margin: 0px 20px;
-  padding: 26px 10px;
-  position: relative;
-  z-index: 0;
-  text-decoration: none;
-}
-
-
-
-
-.indigo {
-  background: white;
-  height: 0.1%;
-  width: 100%;
-}
-
-/* Top border go down and Left border appears */
-.topLeftBorders a:before {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 2px;
-  height: 0px;
-  background: black;
-  content: "";
-  opacity: 1;
-  transition: all 0.3s;
-}
-
-.topLeftBorders a:after {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 2px;
-  background: black;
-  content: "";
-  opacity: 1;
-  transition: all 0.3s;
-}
-
-.topLeftBorders a:hover:before {
+.headersize {
   height: 100%;
+  width:100%
 }
 
-.topLeftBorders a:hover:after {
+
+
+
+  div.container a {
+    background: white;
+    color:black;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+  }
+
+div.topBotomBordersIn a:before, div.topBotomBordersIn a:after {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  background: #00bff3;
+  content: "";
   opacity: 0;
-  top: 100%;
+  transition: all 0.3s;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-  background: yellow;
+div.topBotomBordersIn a:before {
+  top: 0px;
+  transform: translateY(-10px);
 }
-#home{
-  margin-top:12%
+
+div.topBotomBordersIn a:after {
+  bottom: 0px;
+  transform: translateY(10px);
 }
+div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
 
 @media screen and (min-width:768px) {
-  #logo {
-    width: 40%;
-    font-weight: 400;
-    margin-right: 4%
+  .navbar-brand-centered {
+    left: 50%;
+    
   }
-  #home {
-    margin-top: 6.5%
+
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+    margin-left: -80px;
   }
 }
-#textdeco{
-  font-family: Roboto, sans-serif;
-  background: linear-gradient(to right, blue, purple);
+.navbar-brand-centered {
+  position: absolute;
+  height:100%;
+  width:10%;
+  
+
+ 
+}
+#dot {
+  background: #00bff3;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  font-size: 40px;
+  border-radius: 50%;
 }
-p {
-  font-family:Roboto, sans-serif;
-}
-img {
-  width:100%;
-  font-weight:400;
-  margin-right:4%;
+#head{
+  background:white;
+  height:100%;
+  width:100%
 }
 

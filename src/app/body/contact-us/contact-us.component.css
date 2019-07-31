@@ -1,60 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
 
-
-.contact {
-  padding: 4%;
+#contact {
+  background-color:whitesmoke;
   height: 100%;
-  background-image: url("/assets/images/keyboard.jpg");
-  background-attachment: fixed;
+}
+#bk {
+  background-image: url("/assets/images/stephanie.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
+  width: 50%;
 }
 
-.col-md-3 {
-  background: #ff9b00;
-  padding: 4%;
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+.block1 {
+  margin: 5%;
+  width: 50%;
+  height: 10%;
+  background: white;
+}
+.block2 {
+  margin: 5%;
+  width: 70%;
+  height: 30%;
+  background: white;
 }
 
-.contact-info {
-  margin-top: 10%;
+input {
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  text-align:center;
 }
-
-  .contact-info img {
-    margin-bottom: 15%;
-  }
-
-  .contact-info h2 {
-    margin-bottom: 10%;
-  }
-
-.col-md-9 {
-  background-image: url("/assets/images/keyboard.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 3%;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-  height: 100%;
+.btn {
+  margin-left: 15%;
+  width: auto;
+ height:5%;
+  background: linear-gradient(to right, blue, purple);
 }
-
-.contact-form label {
-  font-weight: 600;
+h1 {
+  background: linear-gradient(to right, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
-
-.contact-form button {
-  background: #25274d;
-  color: #fff;
-  font-weight: 600;
-  width: 25%;
+h4{
+  color: white;
 }
-
-  .contact-form button:focus {
-    box-shadow: none;
-  }
-.col-sm-10 {
-  margin-bottom:5%;
+p{
+ color: #000000;
 }

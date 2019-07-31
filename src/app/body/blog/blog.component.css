@@ -1,8 +1,6 @@
 section {
   background-color: white;
-  padding: 40px 40px 40px 40px;
 }
-
 
 .animated {
   -webkit-animation-duration: 2s;
@@ -37,12 +35,6 @@ section {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
 }
-
-
-
- 
-  
-
 #bkimg1 {
   background-image: url("/assets/images/startup.jpg");
   background-attachment: fixed;
@@ -91,18 +83,27 @@ section {
 }
 
 h2 {
-  font: 42px poppins,sans-serif;
-  margin: 0px 0px 19.2px;
+  font: 30px;
+  margin-left: 10%;
   color: #2B2B2B;
+  font-weight: bold;
 }
-p {
-  font: 18px Roboto,sans-serif;
-  margin: 0px 0px 16px;
+#script {
+  font: 18px;
+  margin: 10%;
   color: #6D6D6D;
 }
 #symbol{
-  margin-left:5%;
+  margin:5%;
 }
+.Heading {
+  margin-left: 35%;
+  background: linear-gradient(to right, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
 
 
 

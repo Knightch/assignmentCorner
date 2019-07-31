@@ -4,8 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\body",
-    "\\src\\app\\body\\about-us"
+    "\\src\\app\\body\\blog",
+    "\\src\\app\\footer",
+    "\\src\\app\\header"
   ],
-  "SelectedNode": "\\src\\app\\body\\about-us\\about-us.component.html",
+  "SelectedNode": "\\src\\app\\app.component.ts",
   "PreviewInSolutionExplorer": false
 }
