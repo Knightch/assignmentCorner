@@ -6,8 +6,11 @@
     "\\src\\app\\body",
     "\\src\\app\\body\\blog",
     "\\src\\app\\footer",
-    "\\src\\app\\header"
+    "\\src\\app\\header",
+    "\\src\\app\\home",
+    "\\src\\app\\home\\form",
+    "\\src\\app\\home\\script"
   ],
-  "SelectedNode": "\\src\\app\\app.component.ts",
+  "SelectedNode": "\\src\\index.html",
   "PreviewInSolutionExplorer": false
 }
