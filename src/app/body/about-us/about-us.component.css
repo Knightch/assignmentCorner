@@ -1,6 +1,6 @@
 #second {
   padding: 70px 12px 50px 20px;
-  font: 5px;
+  font: 4%;
   color: #6D6D6D;
   margin-top:5%;
 }
@@ -16,7 +16,7 @@
 
 #first {
   float:left;
-  padding: 70px 12px 20px 20px;
+  padding: 5% 2% 2% 2%;
 }
 
 #clipart1 {
@@ -30,7 +30,7 @@
   }
   #first {
     float: left;
-    padding: 0px 13px 22px 25px;
+    padding: 0px 4% 6% 5%;
     margin-right:3%;
   }
   /*#second {
@@ -44,7 +44,7 @@
 
 }
 h1 {
-  font: 60px ;
+  font: 25%;
   color: #2B2B2B;
 }
 
@@ -163,16 +163,16 @@ h1 {
 
 
 p {
-  font: 10px ;
+  font: 5% ;
   color: black;
 }
 h4 {
-  font: 20px ;
+  font: 10% ;
   color: black;
-  margin: 0px 0px 24px;
+  margin: 0px 0px 10%;
 }
 #stywrd {
-  font: 40px ;
+  font: 20% ;
   padding: 40px 0px;
   background: linear-gradient(to left, #000099 0%, #6600ff 100%);
   -webkit-background-clip: text;
@@ -180,10 +180,11 @@ h4 {
   font-weight: bold
 }
 h2 {
-  font: 40px;
+  font: 20%;
   font-weight: bold;
   color: #00BCD4;
 }
+
 #au1 {
   margin-left:2%;
 }
@@ -538,33 +539,10 @@ h4 {
   -webkit-text-fill-color: transparent;
   font-weight: bold
 }
+
 @media screen and (min-width:320px){
-  h2 {
-    font: 40px;
-    font-weight: bold;
-    color: #00BCD4;
-  }
-  #first {
-    float: left;
-    padding: 0px 13px 22px 25px;
-    margin-right: 3%;
-  }
-  #second {
-    padding: 70px 12px 50px 20px;
-    font: 5px;
-    color: #6D6D6D;
-    margin-top: 10%;
-  }
-
-  #second {
-    margin-top: 10%;
-    margin-left:  12%;
-    border: 4px solid white;
-    width: 30%;
-    background: white;
-  }
-
+ #second{
+   margin-left:10%;
+ } 
 }
 
-
- 
