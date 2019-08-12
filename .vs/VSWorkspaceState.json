@@ -5,12 +5,10 @@
     "\\src\\app",
     "\\src\\app\\body",
     "\\src\\app\\body\\blog",
+    "\\src\\app\\body\\home",
     "\\src\\app\\footer",
-    "\\src\\app\\header",
-    "\\src\\app\\home",
-    "\\src\\app\\home\\form",
-    "\\src\\app\\home\\script"
+    "\\src\\app\\header"
   ],
-  "SelectedNode": "\\src\\index.html",
+  "SelectedNode": "\\src\\app\\body\\home\\home.component.css",
   "PreviewInSolutionExplorer": false
 }
